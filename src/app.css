@@ -1,11 +1,99 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 ActionBar {
-  background-color: #65adf1;
-  color: white;
+    background-color: #bf370f;
+
+    color: white;
 }
 
 Page {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
+}
+
+.page {
+    padding: 16;
+}
+
+.header {
+    margin-bottom: 12;
+    vertical-align: middle;
+}
+
+.nav-button {
+    font-size: 24;
+    width: 35;
+    height: 35;
+    border-radius: 18;
+    background-color: #dd7538;
+    color: white;
+    align-items: center;
+    vertical-align: center;
+}
+
+.month-label {
+    font-size: 20;
+    font-weight: bold;
+    text-align: center;
+}
+
+.year-row {
+    margin-top: 4;
+}
+
+.year-button {
+    width: 40;
+    height: 30;
+    background-color: #dd7538;
+    color: white;
+    border-radius: 2;
+}
+
+.year-label {
+    font-size: 16;
+    text-align: center;
+    margin-left: 8;
+    margin-right: 8;
+}
+
+.weekdays {
+    margin-bottom: 4;
+}
+
+.weekday-label {
+    text-align: center;
+    font-weight: bold;
+}
+
+.days-wrap {
+    margin-top: 4;
+}
+
+.day-label {
+    text-align: center;
+    font-size: 16;
+    margin: 2;
+    padding: 6;
+    border-radius: 22;
+    vertical-align: middle;
+}
+
+.day-empty {
+    opacity: 0;
+}
+
+.day-today {
+    background-color: #dd7538;
+    color: white;
+    font-weight: bold;
+}
+
+.today-button {
+    margin-top: 12;
+    margin-bottom: 12;
+    padding: 12;
+    background-color: #dd7538;
+    color: white;
+    border-radius: 24;
+    align-items: center;
 }
